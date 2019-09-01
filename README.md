@@ -10,6 +10,7 @@
 
 ## Usage
   ```Import word from num2word
+  # Import word from num2word
    from num2word import word
    
    # Generate 'Nine Thousand eighty four'
@@ -18,8 +19,10 @@
    #other examples
    <!-- you can use any bigger number -->
    a = 33221884729877832
-   word(a)
+   print(word(a)) /*It will print the output*/
    b = '99320489432099000982409203'
-   word(b)
+   b = word(b)
+   <print(b)>/* will print out the the expected output */
+
   ```
 
