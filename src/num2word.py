@@ -115,6 +115,6 @@ def word(digit):
                 response = word.tens(segn[i]) + ' ' + bm[(i)%len(bm)] + ' ' + response
             if len(segn[i])==3:
                 response = word.hundreds(segn[i]) + ' ' + bm[(i)%len(bm)] + ' ' + response
-        return response
+        return response.rstrip()
     else:
         raise Exception('Make sure that, the number you passed "'+str(digit)+'" doesn\'t contain any alphabet or special symbol!')
