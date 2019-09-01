@@ -5,8 +5,8 @@ with open('README.md', 'r') as fh:
 
 setup(
     name = 'num2word',
-    version = '1.0.0',
-    description = 'Convert any number to word',
+    version = '1.0.1',
+    description = 'Convert any number/digit to word',
     py_modules = ['num2word'],
     package_dir = {'': 'src'},
     classifiers = [
